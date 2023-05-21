@@ -1,0 +1,301 @@
+main {
+  min-height: 80vh;
+}
+
+
+/* navbar css */
+
+.navigation {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  /* margin-top: 1rem; */
+  background: rgba(28, 215, 59, 0.5);
+  backdrop-filter: blur(25px);
+  /* -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(45%)
+      brightness(130%); */
+  border-radius: 12px;
+}
+
+.nav-container a {
+  font-family: "lato", cursive;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.2em;
+
+}
+
+
+.nav-container a:hover {
+  font-family: "lato", cursive;
+  color: #fe5f4f !important;
+
+}
+
+
+
+/* ------ HOMEPAGE CSS ------ */
+.homepage-header {
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+
+.card-effect {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card-effect:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+
+}
+
+.product-card-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+
+.productCard img {
+  /* min-height: 12rem; */
+  height: 18rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+
+
+.top-rated-prod-img img {
+  max-width: 100%;
+  max-height: 24.4rem;
+}
+
+.card-product-image img {
+  border-radius: 12px 12px;
+}
+
+.card-product-description-price {
+  font-size: 1.5rem;
+}
+
+/* ------ HOMEPAGE CSS ------ */
+
+
+
+
+/* ------ PRODUCT DETIALS PAGE CSS ------ */
+
+.product-details-image:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 24px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.product-details-image {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.product-product-description h6 {
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+
+
+/* Cart Screen */
+
+.cart-product p {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+
+.cart-product-image {
+  width: 60px;
+  height: 60px;
+}
+
+/* PLACE ORDER SCREEN */
+
+
+.shipping-details-card {
+  /* min-height: 1.8rem; */
+  max-height: 22.8rem;
+}
+
+
+.payment-details-card {
+  min-height: 16.8rem;
+}
+
+
+.payment-method-image img {
+  width: 240px;
+  height: 120px;
+}
+
+
+/* Order Screen */
+
+.order-shipping-card {
+  max-height: 22.8rem;
+
+}
+
+
+.order-method-image {
+  max-width: 120px;
+  max-height: 40px;
+  /* border: 1px solid black; */
+}
+
+
+/* Login Screen */
+
+.login-login-container {
+  position: relative;
+}
+
+._sign_in {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.login-signup-container {
+  background: rgba(25, 128, 42, 0.688);
+  position: relative;
+
+}
+
+._login_register_div {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+}
+
+.signin-register-image {
+  width: 18rem;
+}
+
+.register-register-image {
+  width: 16rem;
+
+}
+
+._new_to_portal {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+main {
+  min-height: 90vh;
+}
+
+.product_title_text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+
+}
+
+.hero_burger {
+  max-height: 40rem !important;
+
+}
+
+.hero_logo {
+  width: 8rem;
+}
+
+.hero_main_title {
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.product_price,
+.product_price_price,
+.product_avaibility {
+  font-size: 1.4rem;
+  font-weight: 600;
+
+}
+
+.red_unavailable {
+  color: rgba(236, 128, 40, 0.884);
+  font-size: 1.2rem;
+}
+
+.product_description_title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.add_to_bag_button {
+  padding: 0.6rem 8rem !important;
+}
+
+
+
+/* -----ANIMATAIONS----- */
+
+.bounceAnimation {
+  animation: bounce 2s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(2, 2, 2, 2);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 30px, 0);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 60px, 0);
+  }
+}

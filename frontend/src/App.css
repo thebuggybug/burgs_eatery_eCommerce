@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Poppins:wght@300&display=swap');
+
+* {
+    /* font-family: 'Lato', sans-serif */
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+p {
+    /* font-family: 'Lato' */
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+
+body {
+    /* background: #F0F2F4; */
+}
+
+.hero_text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1F2937;
+}
+
+.product_card {
+    max-height: 50rem;
+}
+
+.product_card_img {
+    height: 22rem;
+    object-fit: cover;
+}
+
+.product_card_title {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.max_stock {
+    color: #717070;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.product_product_name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #245633;
+    font-family: poppins;
+
+}
+
+.button_goBack {
+    color: #ffffff;
+}
+
+.product-details-image {
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.reviewer_user {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1b7e55;
+    font-family: poppins;
+    margin-bottom: 0;
+}
+
+.reviewuser_date {
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #141817;
+    font-family: poppins;
+    margin-bottom: 0;
+}
+
+.order-summary-card {
+    margin-top: 4.8rem
+}
+
+.cart_summary_card_username {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1ba6b6;
+    font-family: poppins;
+    margin-bottom: 0;
+}
+
+.amount_cart_card {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1ba6b6;
+    font-family: poppins;
+    margin-bottom: 0;
+}
+
+.itemNo_cart_card {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1ba6b6;
+    font-family: poppins;
+    margin-bottom: 0;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+.checklist_success {
+    color: #1b7e55;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-size: large;
+}
+
+.checklist_success:hover {
+    color: #28b97c;
+}
+
+
+.shipping_address_summary>h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1b75b6;
+    font-family: poppins;
+    /* margin-bottom: 0; */
+}
+
+.transaction_summary_placeorder>h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1b75b6;
+    font-family: poppins;
+    /* margin-bottom: 0; */
+}
+
+.transaction_summary_placeorder {
+    font-size: 1.2rem;
+}
+
+.shippingDiscount {
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: #696e71;
+    font-family: poppins;
+    /* margin-bottom: 0; */
+}
+
+.products_card_price {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #2980e3;
+    font-family: poppins;
+    /* margin-bottom: 0; */
+}
+
+._logo {
+    width: 60px;
+
+}
